@@ -66,7 +66,7 @@ Playwright MCP 서버를 아직 사용할 수 없다면 추가하여 Copilot이 
 1. 다음 프롬프트로 Copilot에 Playwright MCP 서버를 사용해 기능을 검증하도록 요청합니다.
 
    ```plaintext
-   앱을 시작하고 Playwright MCP로 이슈와 계획에 따라 필터링 기능을 확인해 주세요. 변경하지 말고 무엇이 작동하고 작동하지 않는지 알려 주세요. 작업이 끝나면 시작한 서버를 중지해 주세요.
+   Start the app and use Playwright MCP to check filtering against the issue and our plan. Tell me what works and what doesn't, without making changes. Stop the server you started when you're done.
    ```
 
 > [!NOTE]
@@ -79,13 +79,13 @@ Copilot은 서버를 시작하고 Playwright로 사이트를 조작한 다음 �
 
 ## 요약 및 다음 단계
 
-이 레슨에서는 다음을 수행했습니다.
+축하합니다. Copilot CLI에서 Playwright MCP 서버를 사용해 실제 브라우저로 기능을 살펴봤습니다. 요약하면 다음과 같습니다.
 
-- Model Context Protocol(MCP)이 무엇이며 MCP 서버가 Copilot에 도구를 추가하는 방식을 알아봤습니다.
-- Playwright MCP 서버를 사용할 수 있는지 확인하고, 필요한 경우 추가했습니다.
+- Model Context Protocol(MCP)이 무엇이며 Copilot CLI에서 어떻게 사용하는지 알아봤습니다.
+- Playwright MCP 서버를 사용할 수 없다면 추가했습니다.
 - 에이전트가 브라우저를 조작해 필터링 기능을 살펴보도록 요청했습니다.
 
-사용 가능한 Playwright MCP 서버로 기능을 *테스트*했습니다. 하지만 MCP는 Copilot을 확장하는 여러 방법 중 하나입니다. 다음으로 [사용자 지정 에이전트][next-lesson]를 만들어 접근성 검토와 같은 작업을 간소화합니다.
+다음으로 스킬과 브라우저 도구를 전문 역할에 결합하는 [QA 사용자 지정 에이전트][next-lesson]를 만듭니다.
 
 ## 리소스
 
